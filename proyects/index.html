@@ -1,175 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MDC - Proyectos</title>
     <meta name="theme-color" content="rgb(80,224,255)">
     <meta name="twitter:card" content="summary">
     <meta property="og:type" content="website">
-    <meta property="og:image"
-        content="https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <meta name="twitter:image"
-        content="https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
+    <meta property="og:image" content="https://cdn.mdcdev.me/WhatsApp-Image-2020-11-19-at-10.33.24-PM-225x300%20(1).jpeg">
+    <meta name="twitter:image" content="https://cdn.mdcdev.me/WhatsApp-Image-2020-11-19-at-10.33.24-PM-225x300%20(1).jpeg">
     <meta property="og:title" content="MDC - Proyectos">
-    <meta name="twitter:description"
-        content="Hola, aquí encontraras todos los proyectos en los que trabajo o trabajo MDC.">
+    <meta name="twitter:description" content="Hola, aquí encontraras todos los proyectos en los que trabajo o trabajo MDC.">
     <meta name="description" content="Hola, aquí encontraras todos los proyectos en los que trabajo o trabajo MDC.">
-    <meta property="og:description"
-        content="Hola, aquí encontraras todos los proyectos en los que trabajo o trabajo MDC.">
+    <meta property="og:description" content="Hola, aquí encontraras todos los proyectos en los que trabajo o trabajo MDC.">
     <meta name="twitter:title" content="MDC - Proyectos">
-    <link rel="icon" type="image/jpeg" sizes="50x50" href="../assets/img/avatars/favicon-mini.jpg">
-    <link rel="icon" type="image/jpeg" sizes="591x591"
-        href="../https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <link rel="icon" type="image/jpeg" sizes="591x591"
-        href="../https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <link rel="icon" type="image/jpeg" sizes="591x591"
-        href="../https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <link rel="icon" type="image/jpeg" sizes="591x591"
-        href="../https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="manifest" href="../manifest.json">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="../assets/css/Articulo-Limpio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="icon" type="image/jpeg" sizes="50x50" href="https://cdn.mdcdev.me/dae-favicon-mini.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="/"><strong>MDCDEV</strong></a><button
-                data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span
-                    class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="/">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/proyects">Proyecto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/cv">CV</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/contact">Contactame</a></li>
-                </ul>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-lg fixed w-full z-10">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="/" class="text-xl font-bold">MDCDEV</a>
+            <button class="block lg:hidden px-2 py-1 text-gray-700 border border-gray-600 rounded" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="hidden lg:flex space-x-4" id="nav-content">
+                <a href="/" class="text-gray-700 hover:text-gray-900">Inicio</a>
+                <a href="/proyects" class="text-gray-700 hover:text-gray-900">Proyecto</a>
+                <a href="/cv" class="text-gray-700 hover:text-gray-900">CV</a>
+                <a href="/contact" class="text-gray-700 hover:text-gray-900">Contactame</a>
             </div>
         </div>
     </nav>
-    <main class="page projects-page">
-        <section class="portfolio-block projects-cards">
-            <div class="container">
-                <div class="heading">
-                    <h2>Trabajos y Proyectos</h2>
+    <main class="pt-20">
+        <section class="container mx-auto px-4 py-16">
+            <div class="text-center">
+                <h2 class="text-2xl mb-6">Trabajos y Proyectos</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="overflow-hidden rounded-lg shadow-lg bg-white">
+                    <a href="#"><img src="https://cdn.mdcdev.me/Any_Bot_profile_picture.png" class="w-full h-48 object-cover transition-transform transform hover:scale-105"></a>
+                    <div class="p-4">
+                        <h6 class="text-lg font-semibold mb-2"><a href="#">Any Bot - Proyecto Personal</a></h6>
+                        <p class="text-gray-600 mb-4">Un Bot de Discord de diversión y utilidades variadas, puede ayudar en la moderación de un server de Discord público o privado.</p>
+                        <a class="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition" href="https://github.com/MDCYT/Any-Bot">Código Fuente</a>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><img class="rounded-circle card-img-top scale-on-hover"
-                                    src="https://media.discordapp.net/attachments/1010357444142178360/1121283061074636931/Any_Bot_profile_picture.png"
-                                    alt="Card Image"></a>
-                            <div class="card-body">
-                                <h6><a href="#">Any Bot - Proyecto Personal</a></h6>
-                                <p class="text-muted card-text">Un Bot de Discord de diversión y utilidades variadas,
-                                    puede ayudar en la moderación de un server de Discord publico o privado.</p><a
-                                    class="btn btn-outline-primary" role="button"
-                                    href="https://github.com/MDCYT/Any-Bot">Código Fuente</a>
-                            </div>
+                <div class="overflow-hidden rounded-lg shadow-lg bg-white">
+                    <a href="#"><img src="https://cdn.discordapp.com/avatars/1203165987373977640/b828bb1dbc43ce49283969135f97d8bc.png?size=4096" class="w-full h-48 object-cover transition-transform transform hover:scale-105"></a>
+                    <div class="p-4">
+                        <h6 class="text-lg font-semibold mb-2"><a href="#">Aradira - Trabajo</a></h6>
+                        <p class="text-gray-600 mb-4">Un Bot con inteligencia artificial que usa la personalidad de un youtuber chileno, este bot fue creado para el youtuber chileno Aradir a petición suya.</p>
+                        <a class="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition" href="https://discord.gg/aradir/">Ver</a>
+                    </div>
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg bg-white">
+                    <a href="#"><img src="https://cdn.discordapp.com/avatars/1079464990953721916/8fedca1a78de72ee3bddf0ff696ece98.png?size=4096" class="w-full h-48 object-cover transition-transform transform hover:scale-105"></a>
+                    <div class="p-4">
+                        <h6 class="text-lg font-semibold mb-2"><a href="#">AraLogger - Trabajo</a></h6>
+                        <p class="text-gray-600 mb-4">Un Bot que registra los baneos y desbaneos dentro del servidor de Discord del Youtuber Chileno Aradir.</p>
+                        <div class="space-x-2">
+                            <a class="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition" href="https://discord.gg/aradir/">Ver</a>
+                            <a class="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition" href="https://cdn.mdcdev.me/image%20(1).png">Imagen de Ejemplo</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><img class="rounded-circle card-img-top scale-on-hover"
-                                    src="https://cdn.discordapp.com/avatars/1086514851125399633/2bd2384c15a4b992ce2190e08c95cafc.png?size=4096"
-                                    alt="Card Image"></a>
-                            <div class="card-body">
-                                <h6><a href="#">Aradira - Trabajo</a></h6>
-                                <p class="text-muted card-text">Un Bot con inteligencia artificial que usa la
-                                    personalidad de un youtuber chileno, este bot fue creado para el youtuber chileno
-                                    Aradir a peticion suya.</p>
-                                <div class="btn-group" role="group"><a
-                                        class="btn btn-outline-primary" role="button"
-                                        href="https://discord.gg/aradir/">Ver</a></div>
-                            </div>
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg bg-white">
+                    <a href="#"><img src="https://cdn.mdcdev.me/Oxiservi.jpg" class="w-full h-48 object-cover transition-transform transform hover:scale-105"></a>
+                    <div class="p-4">
+                        <h6 class="text-lg font-semibold mb-2"><a href="#">Oxiservi - Trabajo</a></h6>
+                        <p class="text-gray-600 mb-4">Una página para una empresa de Oxígeno, en la cual muestra información de la empresa y forma directa de contacto con la empresa.</p>
+                        <a class="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition" href="https://oxiservi.com">Ver</a>
+                    </div>
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg bg-white">
+                    <a href="#"><img src="https://cdn.mdcdev.me/msedge_rUIjemSqzv.png" class="w-full h-48 object-cover transition-transform transform hover:scale-105"></a>
+                    <div class="p-4">
+                        <h6 class="text-lg font-semibold mb-2"><a href="#">Any Api - Proyecto Personal</a></h6>
+                        <p class="text-gray-600 mb-4">Una API Variada con diferentes rutas para obtener información variada a petición y demanda de los usuarios.</p>
+                        <div class="space-x-2">
+                            <a class="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition" href="https://github.com/MDCYT/Any-Api">Código Fuente</a>
+                            <a class="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition" href="https://api.any-bot.xyz/">Ver</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><img class="rounded-circle card-img-top scale-on-hover"
-                                    src="https://cdn.discordapp.com/avatars/1079464990953721916/8fedca1a78de72ee3bddf0ff696ece98.png?size=4096"
-                                    alt="Card Image"></a>
-                            <div class="card-body">
-                                <h6><a href="#">AraLogger - Trabajo</a></h6>
-                                <p class="text-muted card-text">Un Bot que registra los baneos y desbaneos dentro del servidor de Discord del Youtuber Chileno Aradir.</p>
-                                <div class="btn-group" role="group"><a
-                                        class="btn btn-outline-primary" role="button"
-                                        href="https://discord.gg/aradir/">Ver</a>
-                                        <a
-                                            class="btn btn-outline-primary" role="button"
-                                            href="https://media.discordapp.net/attachments/1095471169626452019/1121286683804049458/image.png">Imagen de Ejemplo</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover"
-                                    src="../assets/img/proyects/Oxiservi.jpg" alt="Card Image"></a>
-                            <div class="card-body">
-                                <h6><a href="#">Oxiservi - Trabajo</a></h6>
-                                <p class="text-muted card-text">Una pagina para una empresa de Oxigeno, en la cual
-                                    muestra información de la empresa y forma directa de contacto con la empresa.</p><a
-                                    class="btn btn-outline-primary" role="button" href="https://oxiservi.com">Ver</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover"
-                                    src="https://media.discordapp.net/attachments/1010357444142178360/1121283758688051301/msedge_rUIjemSqzv.png"
-                                    alt="Card Image"></a>
-                            <div class="card-body">
-                                <h6><a href="#">Any Api - Proyecto Personal</a></h6>
-                                <p class="text-muted card-text">Una API Variada con diferentes rutas para obtener
-                                    informacion variada a peticion y demanda de los usuarios.</p>
-                                <div class="btn-group" role="group"><a class="btn btn-outline-primary" role="button"
-                                        href="https://github.com/MDCYT/Any-Api">Código Fuente</a><a
-                                        class="btn btn-outline-primary" role="button"
-                                        href="https://api.any-bot.xyz/">Ver</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover"
-                                    src="https://media.discordapp.net/attachments/1010357444142178360/1121290764916359168/msedge_Sxm3ZLBnh2.png"
-                                    alt="Card Image"></a>
-                            <div class="card-body">
-                                <h6><a href="#">Bluey Wordle - Proyecto Personal</a></h6>
-                                <p class="text-muted card-text">Una version modificada del Wordle adaptada y ambientada en la serie de television Bluey.</p>
-                                <div class="btn-group" role="group"><a class="btn btn-outline-primary" role="button"
-                                        href="https://github.com/MDCYT/react-wordle">Código Fuente</a><a
-                                        class="btn btn-outline-primary" role="button"
-                                        href="https://wordle.bluey.site/">Ver</a></div>
-                            </div>
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-lg bg-white">
+                    <a href="#"><img src="https://cdn.mdcdev.me/msedge_Sxm3ZLBnh2.png" class="w-full h-48 object-cover transition-transform transform hover:scale-105"></a>
+                    <div class="p-4">
+                        <h6 class="text-lg font-semibold mb-2"><a href="#">Bluey Wordle - Proyecto Personal</a></h6>
+                        <p class="text-gray-600 mb-4">Un pequeño wordle de la serie de Bluey para jugar y divertirse en los tiempos libres.</p>
+                        <div class="space-x-2">
+                            <a class="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition" href="https://github.com/MDCYT/Bluey-Wordle">Código Fuente</a>
+                            <a class="inline-block px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition" href="https://wordle.bluey.site">Ver</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer class="page-footer">
-        <div class="container">
-            <div class="links"><a href="/cv">Sobre mi</a><a href="/contact">Contactame</a><a
-                    href="/proyects">Proyectos</a></div>
-            <div class="social-icons"><a href="https://www.twitch.tv/mdc_dev"><i
-                        class="icon ion-social-twitch-outline"></i></a><a href="https://www.tiktok.com/@mdcdev"><svg
-                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2"
-                        stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"
-                        class="icon icon-tabler icon-tabler-brand-tiktok">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5"></path>
-                    </svg></a><a href="https://www.youtube.com/@MDCDEV"><i class="icon ion-social-youtube"></i></a><a
-                    href="https://github.com/MDCYT"><i class="icon ion-social-github"></i></a><a
-                    href="https://twitter.com/MDC_DEV"><i class="icon ion-social-twitter"></i></a></div>
+ <footer class="bg-white py-6">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="space-x-4">
+                    <a href="/cv" class="text-gray-700 hover:text-gray-900">Sobre mi</a>
+                    <a href="/contact" class="text-gray-700 hover:text-gray-900">Contactame</a>
+                    <a href="/proyects" class="text-gray-700 hover:text-gray-900">Proyectos</a>
+                </div>
+                <div class="space-x-4">
+                    <a href="https://www.twitch.tv/mdc_dev" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@mdcdev" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@MDCDEV" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://github.com/MDCYT" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/MDC_DEV" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    
+                    <a rel="me" href="https://mastodon.social/@MDCDEV" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-mastodon"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="../assets/js/theme.js"></script>
-    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-    <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
-            referrerpolicy="no-referrer-when-downgrade" /></noscript>
+    <script>
+        document.getElementById('nav-toggle').addEventListener('click', function() {
+            document.getElementById('nav-content').classList.toggle('hidden');
+        });
+    </script>
 </body>
 
 </html>
