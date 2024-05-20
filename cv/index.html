@@ -1,278 +1,200 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MDC - CV</title>
     <meta name="theme-color" content="rgb(80,224,255)">
     <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="website">
     <meta property="og:image"
-        content="https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
+        content="https://cdn.mdcdev.me/WhatsApp-Image-2020-11-19-at-10.33.24-PM-225x300%20(1).jpeg">
     <meta name="twitter:image"
-        content="https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <meta name="twitter:title" content="MDC - CV">
-    <meta property="og:description"
-        content="Hola, este es el CV de MDC, con mucha información sobre el, educación y proyectos.">
-    <meta name="description"
-        content="Hola, este es el CV de MDC, con mucha información sobre el, educación y proyectos.">
-    <meta property="og:type" content="">
-    <meta property="og:title" content="MDC - CV">
-    <meta name="twitter:description"
-        content="Hola, este es el CV de MDC, con mucha información sobre el, educación y proyectos.">
-    <link rel="icon" type="image/jpeg" sizes="50x50" href="../assets/img/avatars/favicon-mini.jpg">
-    <link rel="icon" type="image/jpeg" sizes="591x591"
-        href="../https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <link rel="icon" type="image/jpeg" sizes="591x591"
-        href="../https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <link rel="icon" type="image/jpeg" sizes="591x591"
-        href="../https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <link rel="icon" type="image/jpeg" sizes="591x591"
-        href="../https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="manifest" href="../manifest.json">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="../assets/css/Articulo-Limpio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+        content="https://cdn.mdcdev.me/WhatsApp-Image-2020-11-19-at-10.33.24-PM-225x300%20(1).jpeg">
+    <meta property="og:title" content="MDC - Proyectos">
+    <meta name="twitter:description" content="Hola, aquí encontraras todos los proyectos en los que trabajo MDC.">
+    <meta name="description" content="Hola, aquí encontraras todos los proyectos en los que trabajo MDC.">
+    <meta property="og:description" content="Hola, aquí encontraras todos los proyectos en los que trabajo MDC.">
+    <meta name="twitter:title" content="MDC - Proyectos">
+    <link rel="icon" type="image/jpeg" sizes="50x50" href="https://cdn.mdcdev.me/dae-favicon-mini.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="/"><strong>MDCDEV</strong></a><button
-                data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span
-                    class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="/">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/proyects">Proyecto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/cv">CV</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/contact">Contactame</a></li>
-                </ul>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-lg fixed w-full z-10">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="/" class="text-xl font-bold">MDCDEV</a>
+            <button class="block lg:hidden px-2 py-1 text-gray-700 border border-gray-600 rounded" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="hidden lg:flex space-x-4" id="nav-content">
+                <a href="/" class="text-gray-700 hover:text-gray-900">Inicio</a>
+                <a href="/proyects" class="text-gray-700 hover:text-gray-900">Proyecto</a>
+                <a href="/cv" class="text-gray-700 hover:text-gray-900">CV</a>
+                <a href="/contact" class="text-gray-700 hover:text-gray-900">Contactame</a>
             </div>
         </div>
     </nav>
-    <main class="page cv-page">
-        <section class="portfolio-block block-intro border-bottom">
-            <div class="container">
-                <div class="swing animated avatar"
-                    style="background-image:url(&quot;https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png&quot;);">
+    <main>
+        <section class="container mx-auto px-4 py-20 text-center">
+            <div class="w-32 h-32 mx-auto bg-center bg-cover rounded-full"
+                style="background-image: url('https://cdn.mdcdev.me/WhatsApp-Image-2020-11-19-at-10.33.24-PM-225x300%20(1).jpeg');">
+            </div>
+            <div class="mt-6">
+                <h1 class="text-3xl font-bold">José Ortiz Fernández</h1>
+                <p class="text-xl">Hola, soy José Ortiz Fernández, también conocido como MDC o MDCDEV en las redes
+                    sociales, soy un desarrollador de software novato que ha trabajado en proyectos pequeños como
+                    modificaciones de videojuegos, páginas web, bots autónomos, APIs y más. También soy creador de
+                    contenido en YouTube y Twitch.</p>
+            </div>
+        </section>
+        <section class="container mx-auto px-4 py-10">
+            <h2 class="text-2xl font-bold mb-4">Experiencia</h2>
+            <div class="space-y-4">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Web Developer</h3>
+                    <p class="text-gray-600">Revenant Division</p>
+                    <p class="text-gray-600">10/2020 - 02/2022</p>
+                    <p>Ayude en la creación de su página web y su tienda online, actualmente me encuentro ayudando en
+                        una segunda versión de su página web oficial.</p>
                 </div>
-                <div class="about-me">
-                    <p>Hola, soy <strong>José Ortiz F.</strong>, también conocido
-                        como <strong>MDCDEV</strong> en mis redes sociales, soy un desarrollador de software novato que
-                        a trabajado en proyectos pequeños como modificaciones de videojuegos, paginas web, bots
-                        autónomos, y Apis simples, también, soy creador de contenido en <a style="text-decoration:none"
-                            href="https://youtube.com/c/MDCPE"><strong>
-                                <font color="red">YouTube</font>
-                            </strong></a> donde intento esparcir parte de mi conocimiento aprendido atraves de estos
-                        años, y también en <a style="text-decoration:none" href="https://twitch.tv/MDC_DEV"><strong>
-                                <font color="purple">Twitch
-                            </strong></font></strong></a> donde intento entretener a la gente con dinámicas que puedes
-                        ser, desde enseñanza, hasta interactivas y divertidas.<br /></p><a
-                        class="btn btn-outline-primary" role="button" href="/contact">Contactame</a>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Web Developer</h3>
+                    <p class="text-gray-600">Oxiservi S.R.L</p>
+                    <p class="text-gray-600">01/2021 - Actualidad</p>
+                    <p>Ayuda y cree la página oficial de la empresa, y estoy en el diseño de un blog donde se pueda
+                        compartir información sobre la empresa.</p>
                 </div>
             </div>
         </section>
-        <section class="portfolio-block cv">
-            <div class="container">
-                <div class="work-experience group">
-                    <div class="heading">
-                        <h2 class="text-center">Experiencia</h2>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Web Developer</h3>
-                                <h4 class="organization">Revenant Division</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">10/2020 - 02/2022</span></div>
-                        </div>
-                        <p class="text-muted">Ayude en la creación de su pagina web y su tienda online, actualmente me
-                            encuentro ayudando en una segunda versión de su pagina web oficial.</p>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-6">
-                                <h3><strong>Web Developer</strong><br></h3>
-                                <h4 class="organization">Oxiservi S.R.L</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">01/2021 - Actualidad</span></div>
-                        </div>
-                        <p class="text-muted">Ayuda y cree la pagina oficial de la empresa, y estoy en el diseño de un
-                            blog donde se pueda compartit información sobre la empresa.</p>
-                    </div>
+        <section class="container mx-auto px-4 py-10">
+            <h2 class="text-2xl font-bold mb-4">Educación</h2>
+            <div class="space-y-4">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Secundaria</h3>
+                    <p class="text-gray-600">University College</p>
+                    <p class="text-gray-600">03/2017 - 12/2021</p>
+                    <p>Estudié mi secundaria completa en el colegio University College, aunque también quiero agradecer
+                        al colegio Virgen de Guadalupe por darme una educación primaria completa.</p>
                 </div>
-                <div class="education group">
-                    <div class="heading">
-                        <h2 class="text-center">Educación</h2>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Secundaria</h3>
-                                <h4 class="organization">University College</h4>
-                            </div>
-                            <div class="col-6"><span class="period">03/2017 - 12/2021</span></div>
-                        </div>
-                        <p class="text-muted">Estudie mi secundaria completa en el colegio University College, aunque
-                            también quiero agradecer al colegio Virgen de Guadalupe por darme una educación Primaria
-                            completa.</p>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Diseño y Desarrollo Web</h3>
-                                <h4 class="organization">Senati</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">04/2021 -&nbsp; Actualidad</span></div>
-                        </div>
-                        <p class="text-muted">Actualmente me encuentro estudiando Diseño y Desarrollo Web en la Senati
-                            para poder mejorar en mis habilidades como Desarrollador web.</p>
-                    </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Diseño y Desarrollo Web</h3>
+                    <p class="text-gray-600">Senati</p>
+                    <p class="text-gray-600">04/2021 - Actualidad</p>
+                    <p>Actualmente me encuentro estudiando Diseño y Desarrollo Web en la Senati para poder mejorar en
+                        mis habilidades como desarrollador web.</p>
                 </div>
-                <div class="group">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="skills portfolio-info-card">
-                                <h2>Habilidades</h2>
-                                <h3>HTML</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
-                                        style="width: 85%;"><span class="visually-hidden">85%</span></div>
-                                </div>
-                                <h3>Node.js</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"
-                                        style="width: 92%;"><span class="visually-hidden">92%</span></div>
-                                </div>
-                                <h3>Python</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"
-                                        style="width: 67%;"><span class="visually-hidden">67%</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="contact-info portfolio-info-card">
-                                <h2>Información de contacto</h2>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-android-calendar icon"></i></div>
-                                    <div class="col-9"><span>05/10/2004</span></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-person icon"></i></div>
-                                    <div class="col-9"><span>José Ortiz F.</span></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-at icon"></i></div>
-                                    <div class="col-9"><span>me@mdcdev.me</span></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                            stroke-linecap="round" stroke-linejoin="round"
-                                            class="icon icon-tabler icon-tabler-brand-discord d-md-flex icon">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <circle cx="9" cy="12" r="1"></circle>
-                                            <circle cx="15" cy="12" r="1"></circle>
-                                            <path d="M7.5 7.5c3.5-1 5.5-1 9 0"></path>
-                                            <path d="M7 16.5c3.5 1 6.5 1 10 0"></path>
-                                            <path
-                                                d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-1 2.5">
-                                            </path>
-                                            <path
-                                                d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l1 2.5">
-                                            </path>
-                                        </svg></div>
-                                    <div class="col-9"><span>MDC#0001</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hobbies group">
-                    <div class="heading">
-                        <h2 class="text-center">Hobbies</h2>
-                    </div>
-                    <p class="text-muted"><b>- Hacer videos en YouTube</b>: Me gusta ayudar a la gente con problemas que
-                        tengas, también me agrada enseñar a mas gente sobre temas que conozco y que mucha gente se le
-                        complica aprender.
-                        <br><b>- Asesorar</b>: También me gusta apoyar a gente con sus proyectos en los cuales tienen
-                        complicaciones o necesitan a alguien que los apoye.
-                        <br><b>- Manejar Comunidades</b>: Actualmente creo servidores comunitarios para diferentes
-                        comunidades en las que hago eventos, sorteos, concursos y junto a la gente para que puedan
-                        conocerse entre la comunidad y hacer a esta misma mas fuerte y unida, algunas comunidades que
-                        hice fueron las de <a href="https://discord.gg/BlueyTV" target="_blank"
-                            style="text-decoration:none">
-                            <font color="#8BC5EB"><strong>Bluey</strong></font>
-                        </a> y la una de <a href="https://discord.gg/dae" target="_blank"
-                            style="text-decoration:none"><strong>programación</strong></a>.
-                    </p>
-                </div>
-                <div class="metas group">
-                    <div class="heading">
-                        <h2 class="text-center">Metas</h2>
-                    </div>
-                    <p class="text-muted"><b>- Crear un grupo de desarrollo</b>: Actualmente tengo muchos proyectos en
-                        mente, como acabar el Any Bot, crear otros bots de diferentes funciones, hacer mas paginas de
-                        juegos, contenido utiles, entre otros, actualmente todo esto lo estoy haciendo yo solo, por lo
-                        cual, quiero en un futuro cercano crear un grupo de desarrollo.
-                        <br><br><b>- Generar ingresos de mis proyectos</b>: Actualmente mis proyectos son completamente
-                        gratis y de codigo abierto, esto porque yo siempre e creido en el codigo abierto y que este
-                        mismo beneficia mucho a las personas y sigo creyendo esto, pero en un futuro a mediano plazo
-                        deseo crear versiones premium o de paga de mis proyectos, y tambien hacer algunos proyectos mas
-                        simples de forma gratuita para el uso de las personas en general.
-                        <br><br><b>- Creacion de una comunidad mas grande</b>: Actualemnte ya tengo comunidades en
-                        Discord y Twitter, pero actualmente yo solo manejo 3 comunidades a la vez, lo cual es cansado,
-                        me gustaria expandir mas la comunidades con ayuda voluntaria de mas gente, pero esto a mas largo
-                        plazo, ya que yo siempre e creido en el trabajo remunerado.
-                    </p>
-                </div>
-                <div class="personal group">
-                    <div class="heading">
-                        <h2 class="text-center">Caracteristicas Personales</h2>
-                    </div>
-                    <p class="text-muted">
-                        - Feliz <br>
-                        - Perfecionista <br>
-                        - Confiado <br>
-                        - Honesto <br>
-                        - Somnoliento <br>
-                        - Creativo <br>
-                        - Autonomo <br>
-                        - Impaciente <br>
-                        - Conformista <br>
-                        - Miedoso <br>
-                    </p>
-                </div>
+            </div>
+        </section>
+        <section class="container mx-auto px-4 py-10">
+            <h2 class="text-2xl font-bold mb-4">Habilidades</h2>
+
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <ul class="list-disc list-inside grid grid-cols-2 gap-2">
+                    <li>Python</li>
+                    <li>Haxe</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>MongoDB</li>
+                    <li>PHP</li>
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>C</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+        </section>
+        <section class="container mx-auto px-4 py-10">
+            <h2 class="text-2xl font-bold mb-4">Información de contacto</h2>
+
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <ul class="list-none space-y-4">
+                    <li class="flex items-center"><i class="fas fa-envelope mr-2"></i> <a href="mailto:me@mdcdev.me"
+                            class="text-blue-500 hover:underline">me@mdcdev.me</a></li>
+                    <li class="flex items-center"><i class="fab fa-twitter mr-2"></i> <a
+                            href="https://twitter.com/mdc_dev" class="text-blue-500 hover:underline">@mdc_dev</a></li>
+                    <li class="flex items-center"><i class="fab fa-linkedin mr-2"></i> <a
+                            href="https://www.linkedin.com/in/mdcdev/"
+                            class="text-blue-500 hover:underline">LinkedIn</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-4 py-10">
+            <h2 class="text-2xl font-bold mb-4">Hobbies</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Hacer videos en YouTube: Me gusta ayudar a la gente con problemas que tengan, también me agrada
+                        enseñar a más gente sobre temas que conozco y que mucha gente se le complica aprender.</li>
+                    <li>Asesorar: También me gusta apoyar a gente con sus proyectos en los cuales tienen complicaciones
+                        o necesitan a alguien que los apoye.</li>
+                    <li>Manejar comunidades: Actualmente creo servidores comunitarios para diferentes comunidades en las
+                        que hago eventos, sorteos, concursos y junto a la gente para que puedan conocerse entre la
+                        comunidad y hacer a esta misma más fuerte y unida, algunas comunidades que hice fueron las de
+                        Bluey y una de programación.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="container mx-auto px-4 py-10">
+            <h2 class="text-2xl font-bold mb-4">Metas</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Crear un grupo de desarrollo: Actualmente tengo muchos proyectos en mente, como acabar el Any
+                        Bot, crear otros bots de diferentes funciones, hacer más páginas de juegos, contenido útil,
+                        entre otros. Actualmente todo esto lo estoy haciendo yo solo, por lo cual, quiero en un futuro
+                        cercano crear un grupo de desarrollo.</li>
+                    <li>Generar ingresos de mis proyectos: Actualmente mis proyectos son completamente gratis y de
+                        código abierto, esto porque siempre he creído en el código abierto y que este mismo beneficia
+                        mucho a las personas y sigo creyendo esto, pero en un futuro a mediano plazo deseo crear
+                        versiones premium o de pago de mis proyectos, y también hacer algunos proyectos más simples de
+                        forma gratuita para el uso de las personas en general.</li>
+                    <li>Creación de una comunidad más grande: Actualmente ya tengo comunidades en Discord y Twitter,
+                        pero actualmente yo solo manejo 3 comunidades a la vez, lo cual es cansado. Me gustaría expandir
+                        más las comunidades con ayuda voluntaria de más gente, pero esto a más largo plazo, ya que
+                        siempre he creído en el trabajo remunerado.</li>
+                </ul>
             </div>
         </section>
     </main>
-    <footer class="page-footer">
-        <div class="container">
-            <div class="links"><a href="/cv">Sobre mi</a><a href="/contact">Contactame</a><a
-                    href="/proyects">Proyectos</a></div>
-            <div class="social-icons"><a href="https://www.twitch.tv/mdc_dev"><i
-                        class="icon ion-social-twitch-outline"></i></a><a href="https://www.tiktok.com/@mdcdev"><svg
-                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2"
-                        stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"
-                        class="icon icon-tabler icon-tabler-brand-tiktok">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5"></path>
-                    </svg></a><a href="https://www.youtube.com/@MDCDEV"><i class="icon ion-social-youtube"></i></a><a
-                    href="https://github.com/MDCYT"><i class="icon ion-social-github"></i></a><a
-                    href="https://twitter.com/MDC_DEV"><i class="icon ion-social-twitter"></i></a></div>
+    <footer class="bg-white py-6">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="space-x-4">
+                    <a href="/cv" class="text-gray-700 hover:text-gray-900">Sobre mi</a>
+                    <a href="/contact" class="text-gray-700 hover:text-gray-900">Contactame</a>
+                    <a href="/proyects" class="text-gray-700 hover:text-gray-900">Proyectos</a>
+                </div>
+                <div class="space-x-4">
+                    <a href="https://www.twitch.tv/mdc_dev" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@mdcdev" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@MDCDEV" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://github.com/MDCYT" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/MDC_DEV" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a rel="me" href="https://mastodon.social/@MDCDEV" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-mastodon"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="../assets/js/theme.js"></script>
-    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-    <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
-            referrerpolicy="no-referrer-when-downgrade" /></noscript>
+    <script>
+        document.getElementById('nav-toggle').addEventListener('click', function() {
+            document.getElementById('nav-content').classList.toggle('hidden');
+        });
+    </script>
 </body>
 
 </html>
