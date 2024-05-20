@@ -1,122 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>MDC - Contactame</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDC - Contacto</title>
     <meta name="theme-color" content="rgb(80,224,255)">
+    <meta property="og:description" content="Hola, soy el Portafolio de MDC, aquí podrás encontrase proyectos de MDC y un poco mas de información sobre el.">
+    <meta name="twitter:title" content="MDC - Inicio">
     <meta name="twitter:card" content="summary">
-    <meta property="og:image"
-        content="https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <meta name="twitter:image"
-        content="https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <meta property="og:title" content="MDC - Contactame">
-    <meta name="twitter:description" content="¿Quieres contactar a MDC?
-Aquí encontraras toda la información de contacto de MDC disponible.">
-    <meta name="description" content="¿Quieres contactar a MDC?
-Aquí encontraras toda la información de contacto de MDC disponible.">
-    <meta property="og:description" content="¿Quieres contactar a MDC?
-Aquí encontraras toda la información de contacto de MDC disponible.">
-    <meta name="twitter:title" content="MDC - Contactame">
-    <link rel="icon" type="image/jpeg" sizes="50x50" href="../assets/img/avatars/favicon-mini.jpg">
-    <link rel="icon" type="image/jpeg" sizes="591x591"
-        href="../https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <link rel="icon" type="image/jpeg" sizes="591x591"
-        href="../https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <link rel="icon" type="image/jpeg" sizes="591x591"
-        href="../https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <link rel="icon" type="image/jpeg" sizes="591x591"
-        href="../https://media.discordapp.net/attachments/1010357444142178360/1121281176951336991/WhatsApp-Image-2020-11-19-at-10.png">
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="manifest" href="../manifest.json">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="../assets/css/Articulo-Limpio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Hola, soy el Portafolio de MDC, aquí podrás encontrase proyectos de MDC y un poco mas de información sobre el.">
+    <meta property="og:image" content="https://cdn.mdcdev.me/WhatsApp-Image-2020-11-19-at-10.33.24-PM-225x300%20(1).jpeg">
+    <meta name="twitter:image" content="https://cdn.mdcdev.me/WhatsApp-Image-2020-11-19-at-10.33.24-PM-225x300%20(1).jpeg">
+    <meta name="twitter:description" content="Hola, soy el Portafolio de MDC, aquí podrás encontrase proyectos de MDC y un poco mas de información sobre el.">
+    <meta property="og:title" content="MDC - Inici">
+    <link rel="icon" type="image/jpeg" sizes="50x50" href="https://cdn.mdcdev.me/dae-favicon-mini.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="/"><strong>MDCDEV</strong></a><button
-                data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span
-                    class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="/">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/proyects">Proyecto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/cv">CV</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/contact">Contactame</a></li>
-                </ul>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-lg fixed w-full z-10">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="/" class="text-xl font-bold">MDCDEV</a>
+            <button class="block lg:hidden px-2 py-1 text-gray-700 border border-gray-600 rounded" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="hidden lg:flex space-x-4" id="nav-content">
+                <a href="/" class="text-gray-700 hover:text-gray-900">Inicio</a>
+                <a href="/proyects" class="text-gray-700 hover:text-gray-900">Proyecto</a>
+                <a href="/cv" class="text-gray-700 hover:text-gray-900">CV</a>
+                <a href="/contact" class="text-gray-700 hover:text-gray-900">Contactame</a>
             </div>
         </div>
     </nav>
-    <main class="page hire-me-page">
-        <section class="portfolio-block hire-me">
-            <div class="container">
-                <form>
-                    <div class="contact-info portfolio-info-card">
-                        <h1 class="display-3 text-center"><strong>Información de contacto</strong><br><br></h1>
-                        <div class="row">
-                            <div class="col-1"><i class="icon ion-android-calendar icon"></i></div>
-                            <div class="col-9"><span>05/10/2004</span></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-1"><i class="icon ion-person icon"></i></div>
-                            <div class="col-9"><span>José Ortiz F.</span></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-1"><i class="icon ion-at icon"></i></div>
-                            <div class="col-9"><span>me@mdcdev.me</span></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round"
-                                    class="icon icon-tabler icon-tabler-brand-discord d-md-flex icon">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <circle cx="9" cy="12" r="1"></circle>
-                                    <circle cx="15" cy="12" r="1"></circle>
-                                    <path d="M7.5 7.5c3.5-1 5.5-1 9 0"></path>
-                                    <path d="M7 16.5c3.5 1 6.5 1 10 0"></path>
-                                    <path
-                                        d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-1 2.5">
-                                    </path>
-                                    <path
-                                        d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l1 2.5">
-                                    </path>
-                                </svg></div>
-                            <div class="col-9"><span>MDC#0001</span></div>
-                        </div>
-                    </div>
-                </form>
+    <main>
+        <section class="container mx-auto px-4 py-20 text-center">
+            <h1 class="text-3xl font-bold mb-6">Información de Contacto</h1>
+            <div class="bg-white p-10 rounded-lg shadow-md mx-auto max-w-xl">
+                <p class="text-xl mb-4">José Ortiz Fernández</p>
+                <p class="text-gray-600"><i class="fas fa-envelope"></i> <a href="mailto:me@mdcdev.me" class="text-blue-500 hover:underline">me@mdcdev.me</a></p>
+                <p class="text-gray-600"><i class="fab fa-discord"></i> Discord: @gob.pe</p>
+                <p class="text-gray-600"><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mdcdev/" class="text-blue-500 hover:underline">LinkedIn</a></p>
+                <p class="text-gray-600"><i class="fab fa-twitter"></i> <a href="https://twitter.com/mdc_dev" class="text-blue-500 hover:underline">@mdc_dev</a></p>
             </div>
         </section>
     </main>
-    <footer class="page-footer">
-        <div class="container">
-            <div class="links"><a href="/cv">Sobre mi</a><a href="/contact">Contactame</a><a
-                    href="/proyects">Proyectos</a></div>
-            <div class="social-icons"><a href="https://www.twitch.tv/mdc_dev"><i
-                        class="icon ion-social-twitch-outline"></i></a><a href="https://www.tiktok.com/@mdcdev"><svg
-                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2"
-                        stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"
-                        class="icon icon-tabler icon-tabler-brand-tiktok">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5"></path>
-                    </svg></a><a href="https://www.youtube.com/@MDCDEV"><i class="icon ion-social-youtube"></i></a><a
-                    href="https://github.com/MDCYT"><i class="icon ion-social-github"></i></a><a
-                    href="https://twitter.com/MDC_DEV"><i class="icon ion-social-twitter"></i></a></div>
+    <footer class="bg-white py-6">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="space-x-4">
+                    <a href="/cv" class="text-gray-700 hover:text-gray-900">Sobre mi</a>
+                    <a href="/contact" class="text-gray-700 hover:text-gray-900">Contactame</a>
+                    <a href="/proyects" class="text-gray-700 hover:text-gray-900">Proyectos</a>
+                </div>
+                <div class="space-x-4">
+                    <a href="https://www.twitch.tv/mdc_dev" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@mdcdev" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@MDCDEV" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://github.com/MDCYT" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/MDC_DEV" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    
+                    <a rel="me" href="https://mastodon.social/@MDCDEV" class="text-gray-700 hover:text-gray-900">
+                        <i class="fab fa-mastodon"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="../assets/js/theme.js"></script>
-    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-    <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt=""
-            referrerpolicy="no-referrer-when-downgrade" /></noscript>
+    <script>
+        document.getElementById('nav-toggle').addEventListener('click', function() {
+            document.getElementById('nav-content').classList.toggle('hidden');
+        });
+    </script>
 </body>
 
 </html>
